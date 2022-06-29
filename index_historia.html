@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Apollo</title>
+  <link rel="sortcut icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Apollo_program.svg/1200px-Apollo_program.svg.png"
+    type="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Apollo_program.svg/1200px-Apollo_program.svg.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="video-bg">
+ <video width="320" height="240" autoplay loop muted>
+  <source src="a-17202525498312.jpg" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+<div class="dark-light">
+    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+     <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" /></svg>
+   </div>
+<div class="app">
+ <div class="header">
+  <div class="menu-circle"></div>
+  <div class="header-menu">
+   <a class="menu-link notify" href="/index.html">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="15" height="15" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path xmlns="http://www.w3.org/2000/svg" d="M18,24H15V20.5a.5.5,0,0,0-.5-.5h-5a.5.5,0,0,0-.5.5V24H6V20.5A3.5,3.5,0,0,1,9.5,17h5A3.5,3.5,0,0,1,18,20.5Zm-6-8a3.5,3.5,0,1,0-3.5-3.5A3.5,3.5,0,0,0,12,16Zm6-9a3.5,3.5,0,1,0-3.5-3.5A3.5,3.5,0,0,0,18,7ZM6,7A3.5,3.5,0,1,0,2.5,3.5,3.5,3.5,0,0,0,6,7ZM8.8,8.031C8.7,8.022,8.6,8,8.5,8h-5A3.5,3.5,0,0,0,0,11.5V15H3V11.5a.5.5,0,0,1,.5-.5H6.712A5.5,5.5,0,0,1,8.8,8.031ZM20.5,8h-5c-.1,0-.2.022-.3.031A5.5,5.5,0,0,1,17.288,11H20.5a.5.5,0,0,1,.5.5V15h3V11.5A3.5,3.5,0,0,0,20.5,8Z" fill="#ffffff" data-original="#000000"/></g></svg>
+    Tripulação
+  </a>
+   <a class="menu-link notify" href="index_dados.html">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="15" height="15" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path xmlns="http://www.w3.org/2000/svg" d="M20.527,4.217,14.5.737a5.015,5.015,0,0,0-5,0L3.473,4.217a5.014,5.014,0,0,0-2.5,4.33v6.96a5.016,5.016,0,0,0,2.5,4.331L9.5,23.317a5.012,5.012,0,0,0,5,0l6.027-3.479a5.016,5.016,0,0,0,2.5-4.331V8.547A5.014,5.014,0,0,0,20.527,4.217ZM10.5,2.47a3,3,0,0,1,3,0l6.027,3.479a2.945,2.945,0,0,1,.429.33L13.763,9.854a3.53,3.53,0,0,1-3.526,0L4.044,6.279a2.945,2.945,0,0,1,.429-.33ZM4.473,18.105a3.008,3.008,0,0,1-1.5-2.6V8.547a2.893,2.893,0,0,1,.071-.535l6.193,3.575A5.491,5.491,0,0,0,11,12.222v9.569a2.892,2.892,0,0,1-.5-.206Zm16.554-2.6a3.008,3.008,0,0,1-1.5,2.6L13.5,21.585a2.892,2.892,0,0,1-.5.206V12.222a5.491,5.491,0,0,0,1.763-.635l6.193-3.575a2.893,2.893,0,0,1,.071.535Z" fill="#ffffff" data-original="#000000"/></g></svg>
+   Dados</a>
+   <a class="menu-link is-active" href="index_historia.html">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="15" height="15" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><g xmlns="http://www.w3.org/2000/svg" id="_01_align_center" data-name="01 align center"><path d="M20,0H5A3,3,0,0,0,2,3V21a3,3,0,0,0,3,3H22V2A2,2,0,0,0,20,0Zm0,18H8V2H20ZM5,2H6V18H5.017A3,3,0,0,0,4,18.187V3A1,1,0,0,1,5,2ZM5,22a1,1,0,0,1-1-.992h.015a1,1,0,0,1,1-1.008H20v2Z" fill="#ffffff" data-original="#000000"/></g></g></svg>
+  Historia</a>
+   <a class="menu-link notify" href="index_galeria.html">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="15" height="15" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path xmlns="http://www.w3.org/2000/svg" d="m19 0h-6a5.006 5.006 0 0 0 -5 5v.1a5.009 5.009 0 0 0 -4 4.9v.1a5.009 5.009 0 0 0 -4 4.9v4a5.006 5.006 0 0 0 5 5h6a5.006 5.006 0 0 0 5-5v-.1a5.009 5.009 0 0 0 4-4.9v-.1a5.009 5.009 0 0 0 4-4.9v-4a5.006 5.006 0 0 0 -5-5zm-17 15a3 3 0 0 1 3-3h6a2.988 2.988 0 0 1 2.638 1.6l-3.455 3.463-.475-.479a1.992 1.992 0 0 0 -2.708-.111l-4.621 3.96a2.96 2.96 0 0 1 -.379-1.433zm12 4a3 3 0 0 1 -3 3h-6a2.971 2.971 0 0 1 -1.118-.221l4.406-3.779.476.481a2 2 0 0 0 2.828 0l2.408-2.413zm4-5a3 3 0 0 1 -2 2.816v-1.816a5.006 5.006 0 0 0 -5-5h-5a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3zm4-5a3 3 0 0 1 -2 2.816v-1.816a5.006 5.006 0 0 0 -5-5h-5a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3zm-18 6a1 1 0 1 1 1 1 1 1 0 0 1 -1-1z" fill="#ffffff" data-original="#000000"/></g></svg>
+   Galeria</a>
+  </div>
+  
+  <div class="header-profile">
+   <img width="110px" height="80px" src="Nasa-Logo.png"">
+  </div>
+ </div>
+ <div class="wrapper">
+  <div class="left-side">
+   <div class="side-wrapper">
+    <div class="side-title">Missão Apollo</div>
+    <div class="side-title">Voo não tripulados</div>
+    <div class="side-menu">
+      <a href="/apollo1/index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+          style="enable-background:new 0 0 512 512" xml:space="preserve">
+          <g>
+            <path xmlns="http://www.w3.org/2000/svg"
+              d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+              fill="#ffffff" data-original="#000000" />
+          </g>
+        </svg>
+        Apollo 1
+      </a>
+      <div class="side-title">27 de janeiro de 1967</div>
+      <a href="/apollo4/index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+          style="enable-background:new 0 0 512 512" xml:space="preserve">
+          <g>
+            <path xmlns="http://www.w3.org/2000/svg"
+              d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+              fill="#ffffff" data-original="#000000" />
+          </g>
+        </svg>
+        Apollo 4
+      </a>
+      <a href="/apollo5/index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+          style="enable-background:new 0 0 512 512" xml:space="preserve">
+          <g>
+            <path xmlns="http://www.w3.org/2000/svg"
+              d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+              fill="#ffffff" data-original="#000000" />
+          </g>
+        </svg>
+        Apollo 5
+      </a>
+      <a href="/apollo6/index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+          style="enable-background:new 0 0 512 512" xml:space="preserve">
+          <g>
+            <path xmlns="http://www.w3.org/2000/svg"
+              d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+              fill="#ffffff" data-original="#000000" />
+          </g>
+        </svg>
+        Apollo 6
+      </a>
+      </div>
+      </div>
+      <div class="side-wrapper">
+        <div class="side-title">Voo tripulados</div>
+        <div class="side-menu">
+        <a href="/apollo7/index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          Apollo 7
+        </a>
+        <a href="/apollo8/index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          Apollo 8
+        </a>
+        <a href="/apollo9/index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          Apollo 9
+        </a>
+        <a href="/apollo10/index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          Apollo 10
+        </a>
+        <a href="/apollo11/index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m20 4h-5a4 4 0 0 0 -4-4h-7a4 4 0 0 0 -4 4v19a1 1 0 0 0 2 0v-10h8a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-5a4 4 0 0 0 -4-4zm-18 7v-7a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2zm20 2a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2-2v-.142a4 4 0 0 0 3-3.858v-3h5a2 2 0 0 1 2 2z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          Apollo 11
+        </a>
+        <a href="/apollo12/index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m20 4h-5a4 4 0 0 0 -4-4h-7a4 4 0 0 0 -4 4v19a1 1 0 0 0 2 0v-10h8a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-5a4 4 0 0 0 -4-4zm-18 7v-7a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2zm20 2a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2-2v-.142a4 4 0 0 0 3-3.858v-3h5a2 2 0 0 1 2 2z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          Apollo 12
+        </a>
+        <a href="/apollo13/index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m20 4h-5a4 4 0 0 0 -4-4h-7a4 4 0 0 0 -4 4v19a1 1 0 0 0 2 0v-10h8a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-5a4 4 0 0 0 -4-4zm-18 7v-7a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2zm20 2a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2-2v-.142a4 4 0 0 0 3-3.858v-3h5a2 2 0 0 1 2 2z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          Apollo 13
+        </a>
+        <a href="/apollo14/index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m20 4h-5a4 4 0 0 0 -4-4h-7a4 4 0 0 0 -4 4v19a1 1 0 0 0 2 0v-10h8a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-5a4 4 0 0 0 -4-4zm-18 7v-7a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2zm20 2a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2-2v-.142a4 4 0 0 0 3-3.858v-3h5a2 2 0 0 1 2 2z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          Apollo 14
+        </a>
+        <a href="/apollo15/index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m20 4h-5a4 4 0 0 0 -4-4h-7a4 4 0 0 0 -4 4v19a1 1 0 0 0 2 0v-10h8a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-5a4 4 0 0 0 -4-4zm-18 7v-7a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2zm20 2a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2-2v-.142a4 4 0 0 0 3-3.858v-3h5a2 2 0 0 1 2 2z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          Apollo 15
+        </a>
+        <a href="/apollo16/index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m20 4h-5a4 4 0 0 0 -4-4h-7a4 4 0 0 0 -4 4v19a1 1 0 0 0 2 0v-10h8a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-5a4 4 0 0 0 -4-4zm-18 7v-7a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2zm20 2a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2-2v-.142a4 4 0 0 0 3-3.858v-3h5a2 2 0 0 1 2 2z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          Apollo 16
+        </a>
+        <a href="/apollo17/index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m12 10.5a1.5 1.5 0 1 1 1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5zm4.5-1.5a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm-6 6a1.5 1.5 0 1 0 -1.5-1.5 1.5 1.5 0 0 0 1.5 1.5zm13.341-11.447-.075.209c-1.488 4.126-2.906 8.051-5.823 11.538a13.989 13.989 0 0 1 -4.772 8.7h-4.171v-3.333l-1.773-1.773-2.027 2.026-2.12-2.12 2.026-2.027-1.773-1.773h-3.333v-4.171a13.211 13.211 0 0 1 8.766-4.829c3.47-2.88 7.372-4.288 11.472-5.766l.209-.075a2.652 2.652 0 0 1 3.394 3.394zm-3.073-.321c-4.356 1.573-8.133 3.008-11.368 6.24a24.084 24.084 0 0 0 -3.16 4.2l4.088 4.088a24.242 24.242 0 0 0 4.2-3.159c3.232-3.236 4.672-7.013 6.24-11.369z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0" viewBox="0 0 24 24"
+            style="enable-background:new 0 0 512 512" xml:space="preserve">
+            <g>
+              <path xmlns="http://www.w3.org/2000/svg"
+                d="m20 4h-5a4 4 0 0 0 -4-4h-7a4 4 0 0 0 -4 4v19a1 1 0 0 0 2 0v-10h8a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-5a4 4 0 0 0 -4-4zm-18 7v-7a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2zm20 2a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2-2v-.142a4 4 0 0 0 3-3.858v-3h5a2 2 0 0 1 2 2z"
+                fill="#ffffff" data-original="#000000" />
+            </g>
+          </svg>
+          Apollo 17
+        </a>
+        </div>
+        </div>
+   <div class="side-wrapper">
+    <div class="side-title">Resource Links</div>
+    <div class="side-menu">
+     <a href="#">
+      <svg viewBox="0 0 512 512" fill="currentColor">
+       <path d="M352 0H64C28.704 0 0 28.704 0 64v320a16.02 16.02 0 009.216 14.496A16.232 16.232 0 0016 400c3.68 0 7.328-1.248 10.24-3.712L117.792 320H352c35.296 0 64-28.704 64-64V64c0-35.296-28.704-64-64-64z" />
+       <path d="M464 128h-16v128c0 52.928-43.072 96-96 96H129.376L128 353.152V400c0 26.464 21.536 48 48 48h234.368l75.616 60.512A16.158 16.158 0 00496 512c2.336 0 4.704-.544 6.944-1.6A15.968 15.968 0 00512 496V176c0-26.464-21.536-48-48-48z" />
+      </svg>
+      Social Forum
+     </a>
+    </div>
+   </div>
+  </div>
+  <div class="main-container">
+   <div class="main-header">
+    <a class="menu-link-main" href="#">Apollo 1</a>
+   </div>
+   <div class="content-wrapper">
+    <div class="content-section">
+      <div class="content-section-title">
+      
+        <table>
+          <tr>
+            <td><img src="foto-apollo1/pacth.png" width="1750px" height="200px" alt="img" /></td>
+            <td style="text-align: justify;"> A Apollo 1, inicialmente designada como AS-204, foi a primeira missão tripulada do
+              Programa Apollo dos
+              Estados
+              Unidos,
+              que teve como objetivo final um pouso lunar tripulado. Um incêndio na cabine durante um ensaio de lançamento
+              no dia 27 de janeiro de 1967 no Complexo de Lançamento da Estação da Força Aérea do Cabo Kennedy matou todos
+              os três membros da tripulação. </br>
+              Imediatamente após o incêndio, a NASA convocou o Conselho de Revisão de Acidentes da Apollo 204 para
+              determinar a
+              causa do incêndio, e ambas as casas do Congresso dos Estados Unidos conduziram suas próprias investigações da
+              comissão
+              para supervisionar a investigação da NASA. A fonte de ignição do incêndio foi determinada como sendo elétrica,
+              e o
+              fogo se espalhou rapidamente devido à alta pressão na cabine de comando. O resgate dos astronautas foi
+              impedido pela
+              escotilha da porta, que não podia ser aberta contra a pressão interna mais alta da cabine. A falha em
+              identificar o
+              teste como perigoso (porque o foguete não foi abastecido) levou o resgate a ser prejudicado pela falta de
+              preparação
+              para emergências.<br></td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td style="text-align: justify;"> Durante a investigação do Congresso, o então senador Walter Mondale revelou
+              publicamente um documento interno
+              da NASA, citando problemas com o principal contratante da Apollo North American Aviation, que ficou conhecido
+              como "Phillips Report". Essa revelação envergonhou James Webb, o Administrador da NASA, que não tinha
+              conhecimento da existência do documento, e atraiu controvérsia ao programa Apollo. Apesar do descontentamento do
+              Congresso com a falta de abertura da NASA, ambos os comitês do Congresso determinaram que as questões levantadas
+              no relatório não tinham relação com o acidente.[1] Os voos tripulados da Apollo foram suspensos por 20 meses,
+              enquanto a Segurança do Módulo de comando foi questionada. No entanto, o desenvolvimento e os testes
+              não-tripulados do Módulo lunar e do foguete Saturno V continuaram.</br></td>
+            <td><img src="foto-apollo1/pacth_apollo.png" width="2050px" height="200px" alt="img" /><br></td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td><iframe class="ui Huge left floated image" width="500px" height="300px"
+                src="https://www.youtube.com/embed/M0YB5r4vzVo" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></td>
+          </tr>
+        </table>
+        <p style="text-align: justify;">Todos os três astronautas da Apollo 1 foram mortos durante um teste de pré-lançamento.
+          Nos meses
+          que antecederam o desastre, houve várias bandeiras vermelhas que cimentaram o destino da
+          tripulação.<br>
+      
+          Embora ir para o espaço e a exploração do espaço sempre tenham sido um risco, desde o início do
+          Programa Apollo, a NASA percebeu o quão perigosas seriam suas missões lunares Apollo e a missão
+          de viagem espacial quase terminou antes mesmo de sair do Chão.<br>
+          Em 27 de janeiro de 1967, os astronautas 'Gus' Grissom, Ed White e Roger Chaffee, do Projeto
+          Apollo, morreram no solo em um incêndio dentro da cabine de comando. O que ocorreu de fato foi
+          um curto-circuito no interior da cabine, Grissom, via rádio, comunicava que havia fogo no
+          "cockpit". Segundos mais tarde, podia-se ouvir Chaffee dizendo que ele e seus companheiros
+          sairiam do módulo de comando. <br>
+        </p>
+        <table>
+          <tr>
+            <td style="text-align: justify;">Mas não puderam, pois a escotilha de saída possuía apenas trancas
+              mecânicas, e os esforços dos astronautas na tentativa de abri-la mostraram-se inúteis. A equipe
+              que trabalhava fora da espaçonave procurava, em vão, abrir a escotilha em meio ao calor
+              insuportável.<br>
+              Quando, finalmente, conseguiu-se abrir o módulo de comando os três astronautas já estavam
+              mortos, ainda que a roupa espacial os tenha protegido do fogo, a inalação excessiva de fumaça
+              foi fatal. Como resultado desse acidente, toda programação do projeto Apollo foi atrasada em
+              vinte e um meses. Durante esse período, os engenheiros da NASA modificaram completamente a
+              cabine do módulo de comando. Cerca de 1 300 alterações foram feitas.
+        
+              A primeira missão tripulada bem sucedida do projeto Apollo foi o voo da missão Apollo 7.</td>
+            <td><img class="ui Big right floated image" src="foto-apollo1/acidente.jpg" width="3000px" height="250px"></td>
+          </tr>
+        </table>
+        </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="overlay-app"></div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
