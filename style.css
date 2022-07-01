@@ -25,7 +25,7 @@
 
 .light-mode {
   --theme-bg-color: rgb(255 255 255 / 31%);
-  --theme-color: #b95959;
+  --theme-color: #000000;
   --inactive-color: #333333;
   --button-inactive: #3c3a3a;
   --search-bg: rgb(255 255 255 / 31%);
